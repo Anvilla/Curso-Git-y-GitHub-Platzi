@@ -1,11 +1,23 @@
 body
 {
+    width: 90%;
     color: #333;
     text-align: center;
     font-family: Arial;
     font-size: 16px;
     margin: 0;
-    padding: 0;
+    padding: 5%;
+}
+
+.footer
+{
+  background-color: #121212;
+  color: #F2F2F2;
+  text-align: center;
+  font-weight: lighter;
+  font-family: sans-serif;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 }
 
 #cabecera
@@ -27,7 +39,6 @@ body
 
 #container
 {
-    width: 70%;
     padding: 0;
     text-align: left;
     border: 1px solid #DDD;
@@ -40,5 +51,6 @@ body
 }
 #post
 {
-    padding: 1em;
+    padding: 0;
+    text-align: left;
 }
